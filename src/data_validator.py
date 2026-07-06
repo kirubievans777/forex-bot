@@ -100,7 +100,7 @@ def print_report(report):
 if __name__ == "__main__":
     from data_loader import load_price_data
 
-    sample_path = "data/raw/sample_eurusd.csv"
+    sample_path = "data/processed/eurusd_h4.csv"
     data = load_price_data(sample_path)
     result = validate_data(data)
     print_report(result)
