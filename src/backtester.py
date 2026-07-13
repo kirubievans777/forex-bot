@@ -7,7 +7,7 @@ Purpose: Simulate our strategy against historical data, candle by candle,
 import pandas as pd
 from strategy import generate_signal, MIN_DATA_POINTS_REQUIRED
 
-STARTING_BALANCE = 10_000.0
+STARTING_BALANCE = 100_000.0
 RISK_PER_TRADE_PERCENT = 1.0     # Risk 1% of current balance per trade
 ASSUMED_SPREAD_PIPS = 1.5        # Conservative assumed cost per trade
 PIP_SIZE = 0.0001                # For EUR/USD, 1 pip = 0.0001
